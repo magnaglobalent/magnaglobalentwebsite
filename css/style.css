@@ -54,3 +54,28 @@
         50% { transform: scale(1.1); }
         100% { transform: scale(1); }
     }
+
+    .call-btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #28a745, #20c997);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.call-btn:hover {
+    background: linear-gradient(45deg, #218838, #17a2b8);
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.call-btn:active {
+    transform: scale(0.95);
+}
